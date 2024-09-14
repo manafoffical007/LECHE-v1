@@ -249,7 +249,7 @@ def source(self):
 
 
 def get_readable_message():
-    msg = "<b>Powered by GarudaMirror</b>\n\n"
+    msg = "<b>Powered by Ac Movies</b>\n\n"
     button = None
     tasks = len(download_dict)
     currentTime = get_readable_time(time() - botStartTime)
