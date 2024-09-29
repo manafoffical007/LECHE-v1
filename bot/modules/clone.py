@@ -256,8 +256,7 @@ async def gdcloneNode(message, link, listen_up):
 
 
 @new_task
-async def clone(client, message):
-    await send_react(message)
+async def clone(client, message):    
     input_list = message.text.split(" ")
     arg_base = {
         "link": "",
